@@ -1,0 +1,10 @@
+ ______   ______     ______     __   __   ______     __   __
+/\  ___\ /\  ___\   /\  == \   /\ \ / /  /\  ___\   /\ "-.\ \
+\ \  __\ \ \  __\   \ \  __<   \ \ \'/   \ \  __\   \ \ \-.  \
+ \ \_\    \ \_____\  \ \_\ \_\  \ \__|    \ \_____\  \ \_\\"\_\
+  \/_/     \/_____/   \/_/ /_/   \/_/      \/_____/   \/_/ \/_/
+
+I am not responsible for any illegal activities performed using this program.
+
+Usage: [ferven -u john1234]
+For possible arguments or help: [ferven -h]
