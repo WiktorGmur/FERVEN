@@ -6,5 +6,5 @@
 
 I am not responsible for any illegal activities performed using this program.
 
-Usage: [ferven -u john1234]
-For possible arguments or help: [ferven -h]
+Usage: [ferven lookmeup1234]
+For information about the program itself: [ferven -h]
