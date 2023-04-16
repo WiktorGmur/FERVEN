@@ -4,7 +4,7 @@
 
 ## Installation
 
-Install my-project with npm
+Git clone the repo, build, then continue with your investigation
 
 ```bash
   git clone https://github.com/WiktorGmur/FERVEN.git
