@@ -66,6 +66,8 @@ func checkUserExists(username, service string) bool {
 		url = fmt.Sprintf("https://codecademy.com/%s", username)
 	case "codepen":
 		url = fmt.Sprintf("https://codepen.com/%s", username)
+	case "tryhackme":
+		url = fmt.Sprintf("https://tryhackme.com/p/%s", username)
 
 	}
 	req, err := http.NewRequest("GET", url, nil)
@@ -118,6 +120,7 @@ func main() {
 			"hackerrank",
 			"codecademy",
 			"codepen",
+			"tryhackme",
 		}
 		for _, service := range services {
 			if checkUserExists(username, service) {
@@ -162,6 +165,8 @@ func main() {
 					l.Printf("Codecademy: https://codecademy.com/%s", username)
 				case "codepen":
 					l.Printf("Codepen: https://codepen.io/%s", username)
+				case "tryhackme":
+					l.Printf("Tryhackme: https://tryhackme.com/p/%s", username)
 				}
 			}
 		}
